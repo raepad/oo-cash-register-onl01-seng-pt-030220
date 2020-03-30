@@ -13,17 +13,7 @@ class CashRegister
   
   def add_item(title, price, quantity=1)
     self.total += (price * quantity)
-    # if quantity > 1
-    #   counter = 0
-    #   while counter < quantity
-    #     @items << items
-    #     counter += 1
-    #   end
-    # else
-    #   @items << items
-    # end
-    
-    
+   
     @items << title.times
     # binding.pry
   end
